@@ -12,7 +12,7 @@ if (!cv.xmodules.dnn) {
 }
 
 // replace with path where you unzipped inception model
-const ssdcocoModelPath = '../data/dnn/coco-SSD_300x300';
+const ssdcocoModelPath = '../dnn/';
 
 const prototxt = path.resolve(ssdcocoModelPath, 'deploy.prototxt');
 const modelFile = path.resolve(ssdcocoModelPath, 'VGG_coco_SSD_300x300_iter_400000.caffemodel');
