@@ -1,6 +1,6 @@
 const path = require('path');
 
-const cv = require('/');
+const cv = require('../');
 
 exports.cv = cv;
 
